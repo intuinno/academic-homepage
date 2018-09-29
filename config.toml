@@ -6,7 +6,10 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://intuinno.github.io/"
+
+# baseurl = "https://intuinno.github.io/"
+baseurl = "http://crystal.uta.edu/~park/"
+
 
 relativeURLS = true
 canonifyurls = true
