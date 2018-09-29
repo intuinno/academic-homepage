@@ -18,7 +18,7 @@ authors = ["Deokgun Park", "Simranjit Sachar", "Nicholas Diakopoulos", "Niklas E
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems"
+publication = "In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, *Best Paper Honorable Mention Award* "
 publication_short = "CHI"
 
 # Abstract and optional shortened version.
@@ -40,7 +40,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["Text Analysis", "Visual Analytics", "Open-ended Tasks"]
 
 # Links (optional).
 url_pdf = "files/commentiq/commentiq.pdf"
