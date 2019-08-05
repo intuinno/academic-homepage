@@ -46,5 +46,5 @@ I think there are three components for the artificial general intelligence. The 
 
 Finally, what will be the next step for the evolution? I think it will be how we can limit the limitation of the brain cell. The brain cell is relatively small and degradable. If we can use our electronic components as a device, it will achieve a step-up in the evolution speed. But more importantly, I think the true power of the next evolution is when the artificial intelligence agent upgrades its own structure. This upgrades will be beyond the human's ability to follow which is called **technical singularity**. 
 
-
+https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=evolution.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1UXhcg_BTjYLVaRHETPs9awbFHxgmqkxO%26export%3Ddownload
 
