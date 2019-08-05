@@ -16,3 +16,7 @@ body {
     font-size: 15px;
     letter-spacing: 0;
 }
+
+figcaption h4 { 
+    font-weight: 200;
+}
