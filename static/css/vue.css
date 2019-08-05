@@ -1,1 +1,5 @@
-hello
+p {
+    line-height:1.6rem;
+    word-spacing: .05rem;
+    margin: 1.2em 0;
+}
