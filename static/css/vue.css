@@ -8,9 +8,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; */
 }
-body:not(.ready) {
+/* body:not(.ready) {
   overflow: hidden;
-}
+} */
 body:not(.ready) [data-cloak],
 body:not(.ready) .app-nav,
 body:not(.ready) > nav {
