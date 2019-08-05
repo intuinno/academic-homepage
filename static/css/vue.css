@@ -50,9 +50,9 @@ div#app:empty::before {
   font-weight: bold;
 }
 html,
-/* body {
+body {
   height: 100%;
-} */
+}
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
