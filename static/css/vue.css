@@ -49,10 +49,10 @@ div#app:empty::before {
   font-style: normal;
   font-weight: bold;
 }
-html,
+/* html,
 body {
   height: 100%;
-}
+} */
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -298,10 +298,10 @@ main.hidden {
   width: 16px;
   height: 2px;
 }
-body.sticky .sidebar,
+/* body.sticky .sidebar,
 body.sticky .sidebar-toggle {
   position: fixed;
-}
+} */
 .content {
   padding-top: 60px;
   position: absolute;
