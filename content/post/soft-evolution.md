@@ -9,7 +9,7 @@ draft = false
 authors = ["Deokgun Park"]
 
 tags = ["agi","research"]
-summary = "The first evolution mechanism was based on the DNA. The second evolution mechanism was based on the brain. The third  evolution mechanism will be based on cybernetics"
+summary = "The first evolution mechanism was based on the DNA. The second evolution mechanism was based on the brain. The third  evolution mechanism will be based on algorithms"
 
 [header]
 image = ""
