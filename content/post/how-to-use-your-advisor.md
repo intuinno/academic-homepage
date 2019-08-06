@@ -62,3 +62,12 @@ Don't worry. Debugging this kind issue is common. I myself always deal with this
 
 ### How to use your advisor
 
+If your advisor cannot help you solve your technical issues, where can I use him? One area is when you have a research question. As a graduate student, you will always think the research question or the topic for the next paper. There can be two major pitfalls for setting the research topic.  An academic work is about finding a knowledge that none has found before. There can be two reasons why nobody has done it before. 
+
+First, it can be too difficult to do or trivial but not meaningful.  When we think a new idea, I can bet there will be more than 10 people who have thought the same thing. Still the finding the solution might be too difficult. 
+Time machine, teleportation, or thinking machines are those areas. Those are technologies that people wish but it is very hard to make a progress in those area.  Or more commonly, your topic is slightly general and there can be many approaches to it. However, the topic might be well-known in the community and almost all low hanging fruits are taken already and what remains might be too challenging. 
+
+Second, your problem might be too narrow or trivial or already solved before. 
+Your advisor is like a guide to the Mt. Everest or a chaperone to the party. He has an experience and background knowledge about the research community.  
+Therefore getting a cross check of your idea can be a good use of your advisor. 
+
