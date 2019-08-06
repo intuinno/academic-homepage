@@ -9,7 +9,7 @@ draft = false
 authors = ["Deokgun Park"]
 
 tags = ["student advice"]
-summary = "If you have a technical problem. Solve it on your own while producing shareable outcome. If you have a research idea, your advisor can help you evaluate whether it is intractable, already done, or trivial. "
+summary = "In HDILab, we learn by teaching. Do not study or work but create a sharable output.  Be true to yourself.  "
 
 [header]
 image = ""
@@ -17,57 +17,89 @@ caption = ""
 
 +++
 
-Recently, I got an email from a student from HDILab.  I think his situation might be a common case so here I added my reply in the hope that this can be helpful to other students. Below is the modified email message from the student. 
+Below is HDILab culture. A culture is a principle about how we do everyday things. I hope that our culture shape our group in a productive way.
 
-> Hello Dr.Park,
->
-> I am trying to implement carracing. I am using a virtualenv python3.5.4. I am trying to run extract.bash using $sudo bash extract.bash. However, it returns 
->
->
-> ” File “extract.py”, line 8, in <module>
->    import gym
-> ImportError: No module named gym” when extract.bash is trying to run extract.py. 
->
-> The problem is I installed gym and box2d-py too, and yet it shows the import error. 
->
->
-> $ which pip 
-> /home/aishwarya/WorldModelsExperiments/carracing/venv/bin/pip
-> 
-> $ which python         
-> /home/aishwarya/WorldModelsExperiments/carracing/venv/bin/python
->
-> I’ve also tried the solutions given in here and in here
->
-> Can you please help me out with this issue.
+### We learn by teaching.
+Every week we will have a paper reading seminar where one student will teach a paper to other lab members. A pizza and a diet coke will be provided. You will have a chance to announce what you are working on nowadays in a friendly environment 30 minutes before the seminar. Currently the seminar starts on Wednesday 12:30pm.  
+
+- After you have done lab seminar, add the slides and all materials into the Google drive here. The goal here is to make it easier for a new lab member to follow what we have done so far. 
+- Also write one paragraph abstract for the seminar to summarize what you teach. 
+- Add your call sign so that we can know who did the seminar.  Students should answer the questions from colleagues.
+
+### Team play
+There are focused hours in the lab where students are supposed to be at the same space and time. The main idea is to have an informal chat, update, questions and answers. The focused hours are currently held Mon, Tue, Wed 10am-2pm at ERB 205. 
+Don’t be late.
+If you think you will be late, report it to the slack.  
 
 
- Below you can find my advice. TLDR, if you have a technical problem. Solve it on your own while producing shareable outcome. If you have a research idea, your advisor can help you evaluate whether it is intractable, already done, or trivial.
+### Sharable output
+Students are required to maintain a lab journal and project journal
+Lab journal is for the general purpose work and project journal is for the project related progress. For example,
 
-### My answer to the student
+- I set up the new server or hardware for the-> hdilab journal
+- I organized the inventory -> hdilab journal  
+- I replicated the world model -> daivid journal
 
-Hi, Tomas (Name changed for privacy)
+Every work should be recorded and reproducible.
+Basically journal is for yourself. But write it well when others have to find something you did. When you accumulate enough work and progress, make them shareable and transferable chunk into three places: 
+
+- journal how-to technical note
+When you create a new technical note leave a author call sign such as #deokgun so that I can find who wrote what. 
+If you need to update it, add a call sign and date after the original author. 
+
+```
+Example 
+Created: #deokgun 01/08/2019
+Updated: #sanjay 01/09/2019 
+```
+
+- Personal homepage blog article 
+- Github readme.md 
 
 
-I don't know about this. You should check Google or ask other person's in the lab. I think Jane and John might know. 
+We share the open source code and how-to manual as a final output.
+We use GitHub as the main archive
+As a rule of thumb, I expect 50% of everyone’s time will be spent writing what you have done. 
 
-Don't worry. Debugging this kind issue is common. I myself always deal with this issue. One of the reason, I cannot help is that the reason can be diverse. It is case by case. Therefore it is more important important to know how to deal with these kind of issues than the actual specific solution.  There will be hardly anyone who can solve your technical problem with a clear answer. If you have one you are lucky. But still if you ask to much questions to him, you are actually costing a precious resource to the group which is a bad news for you.  Below are some general advices. 
+#### How to write a journal 
 
-1. Use slack general channel. If you send email to one person, the chance is low that  your busy and ignorant professor can help you. If you use slack to post your issue to the entire group, some competent students might help you. 
+- Make the outline neat
+- If you click the View-> Show Document Outline button, it will show you the document outline. Make sure your writing follows the header rule. 
+There is a shortcut key for selecting the paragraph level. 
 
-2. Make environment simple. 
-90 Percent of these issues are package version collision.  Virtual env helps but not perfect. In old days I used to format frequently. That's why I use one disk for system and one disk for home directory. Nowadays learning how to use docker will pay you back well in the long run. 
+```
+cmd + alt + 1 makes the top level heading
+cmd + alt + 2 makes the second level heading
+cmd + alt + 0 makes the content paragraph, which is not shown in outline. 
+``` 
 
-3. Try to learn generalizable lesson and share it. Most of time, you just fix and forget. You might try stack overflow or Google solution until you fix it. The problem with this approach is that the time you spent on solving this issue does not produce any credit for your work.  While I also sometimes do that, the correct way to handle an issue is that ***first understand the reason of the issue*** and ***create a technical note or blogs*** that explains the issue and the solution.  Many people in the lab can benefit your contribution and your technical blog will help building your professional reputation. You need to be accustomed to solve these kinds of issues. It is like growing your muscles. 
 
-### How to use your advisor
+- The **Things to do next part** is important. Your professor reads it often.  Keep it tidy. When something is done, remove. **Update it everyday**. When you are given new goal, write it there.  Make the thing you are working on now, the first item. Order them in the priority. 
 
-If your advisor cannot help you solve your technical issues, where can I use him? One area is when you have a research question. As a graduate student, you will always think the research question or the topic for the next paper. There can be two major pitfalls for setting the research topic.  An academic work is about finding a knowledge that none has found before. There can be two reasons why nobody has done it before. 
+### Communication is half of your job.
+Your impact will be the multiplication of research and communication of the result.
+Try to report the progress whenever there is a progress
+Don't wait until your boss ask your progress. Tell him what you are working on now.
+ If you meet a barrier or decide to change direction, report it. 
+When I ask you to do something, I usually expect to hear the progress report in a one or two days. 
 
-First, it can be too difficult to do or trivial but not meaningful.  When we think a new idea, I can bet there will be more than 10 people who have thought the same thing. Still the finding the solution might be too difficult. 
-Time machine, teleportation, or thinking machines are those areas. Those are technologies that people wish but it is very hard to make a progress in those area.  Or more commonly, your topic is slightly general and there can be many approaches to it. However, the topic might be well-known in the community and almost all low hanging fruits are taken already and what remains might be too challenging. 
 
-Second, your problem might be too narrow or trivial or already solved before. 
-Your advisor is like a guide to the Mt. Everest or a chaperone to the party. He has an experience and background knowledge about the research community.  
-Therefore getting a cross check of your idea can be a good use of your advisor. 
+### Being true to ourselves
+You cannot deceive yourself. Being true to yourself is, in my opinion, a very good long-term strategy. For example, if you don’t know during the seminar, acknowledge that you don’t know and ask questions until you understand. Don’t be embarrassed or give up by social pressure. Academy is a few places where being true to yourself is tolerated. 
+
+
+Other good question to ask yourself is whether you are enjoying the research. Actually according to my experience, research is not for everyone. Probably about 5 persons out of 100 suit the academic life. Because of this, it is perfectly okay if you feel that the graduate study is not what you want to do. I recommend to get a SW engineering job in that case, which actually pays you better and provides better work-life balance. You might feel like a failure to quit the research at first, but if you are true to yourself, you may find it as one of the best decisions of your life later. 
+
+
+Similarly I will release you out of the lab if I think that you are not a good fit for the lab as early as possible. How I make that decision? First, I have to acknowledge that it is very difficult decision for me, too. It is not only emotionally difficult but intellectually difficult. Because nobody knows the future, one day the student I fired may get a Nobel prize. 
+
+
+I have to follow the lab culture which is my principle. For me, there are three characteristics for the academic career. 
+
+- First is **curiosity**. The desire to know or find the truth is our strongest motivation and rewards. 
+
+- Second is the **self-starting**. This one is related to curiosity. Because you want to know something, you start researching about it. This is usually observed when the student comes to me and ask an advice for something. It is the opposite of waiting for the order from me. 
+
+- Third is the persistence. The journey is long and the rewards are sparse. If you are not persistent, chances are you give up. **Persistence is measured by the shareable output.** According to my experience, quantity is more important than the quality for measuring persistence. It means if you are producing lots of so-so blog article or technical note and low quality draft of academic papers, you have the persistence. Think about growing academic muscle by writing everyday.    
+
 
