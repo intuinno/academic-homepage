@@ -1,5 +1,5 @@
 +++
-title = "Advice for the graduate school"
+title = "Advice for the undergraduate students who consider the graduate school"
 
 date = 2019-08-06T00:00:00
 lastmod = 2019-08-06T00:00:00
