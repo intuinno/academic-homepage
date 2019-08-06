@@ -46,36 +46,19 @@ Recently, I got an email from a student from HDILab.  I think his situation migh
 
 ### My answer to the student
 
-
 Hi, Tomas (Name changed for privacy)
 
-I understand your position.
- 
-Below is my advice.  The choice is yours. There is no right or wrong choice. The choice is based on who you are and in return shapes who you will be.
- 
- 
-> to loan my way through graduate school (but I can’t do that since I am already on a huge debt for my undergraduate school),  
 
-The graduate school here must be master’s degree, right. I don’t recommend it, either. You cannot get enough knowledge on AI topic and you don’t have enough time to create a knowledge that will make you attractable hire for companies like Deep Mind.
+I don't know about this. You should check Google or ask other person's in the lab. I think Jane and John might know. 
 
-> or get a PhD (this will take me forever and I will never be able to pay my loans back with the stipend),
+Don't worry. Debugging this kind issue is common. I myself always deal with this issue. One of the reason, I cannot help is that the reason can be diverse. It is case by case. Therefore it is more important important to know how to deal with these kind of issues than the actual specific solution.  There will be hardly anyone who can solve your technical problem with a clear answer. If you have one you are lucky. But still if you ask to much questions to him, you are actually costing a precious resource to the group which is a bad news for you.  Below are some general advices. 
 
-It does not take you forever. It is actually somewhat short to do what I describe above. It will pay you back reasonably well if you are successful. But the decision cannot be made solely on financial reward because this financial reward is probabilistic. Better motivation would be the pursuit of knowledge or curiosity. And the reward is auxiliary. For example, you usually do not pursue professional baseball career because most of baseball related careers are not well-paid. Only winner takes it all.(I hope the chance is higher in the CS.) But many still pursue it because they enjoy baseball anyway.
+1. Use slack general channel. If you send email to one person, the chance is low that  your busy and ignorant professor can help you. If you use slack to post your issue to the entire group, some competent students might help you. 
 
-> or find a job (until I am able to pay by loans and fund my graduate school but I really want to be on AI).
+2. Make environment simple. 
+90 Percent of these issues are package version collision.  Virtual env helps but not perfect. In old days I used to format frequently. That's why I use one disk for system and one disk for home directory. Nowadays learning how to use docker will pay you back well in the long run. 
 
-This is an actually good option. Get a job. Get decent salary and pay your loans.
-The trick is that you can study AI on your own with online learning education resource nowadays. This can be sometimes better than what the Master’s degree can offer.
-When you study enough and you have a non-trivial question, it will be a good time to pursue PhD. Of course, consult with professors about your question.
+3. Try to learn generalizable lesson and share it. Most of time, you just fix and forget. You might try stack overflow or Google solution until you fix it. The problem with this approach is that the time you spent on solving this issue does not produce any credit for your work.  While I also sometimes do that, the correct way to handle an issue is that ***first understand the reason of the issue*** and ***create a technical note or blogs*** that explains the issue and the solution.  Many people in the lab can benefit your contribution and your technical blog will help building your professional reputation. You need to be accustomed to solve these kinds of issues. It is like growing your muscles. 
 
-
-Attending academic conference is a good investment.
-Studying alone is actually harder than you might think. You will be busy for the job (actually everyone is busy, right? Even my 9th grade daughter is busy because she has to watch three hours of youtube videos in addition to all the school work and violin and archery practice) and you may find the AI study is not so fun. The good news is that if you don’t like it, you don’t have to do it. It means that you are probably not good fit for the PhD. Don’t worry. You have a job already and you can focus on the software engineering career which can be also very rewarding. According to my opinion, I think about 5% of the people with good school grades are actually good fit for the PhD. The main reason is that we get good grades by learning what others have found. But PhD is about finding new knowledge which is very different from learning what others have found.
- 
-As a summary, I think you have a potential. If you really want to study AI and deep learning now, you can get a PhD now. If you are not sure, it is okay to get a SWE job. If you find that you keep studying on AI and DL for one or two years on your own, you might consider getting a PhD.
- 
-Regards
- 
-Deokgun
-
+### How to use your advisor
 
