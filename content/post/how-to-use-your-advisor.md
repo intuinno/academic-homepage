@@ -17,14 +17,32 @@ caption = ""
 
 +++
 
-Recently, I got an email from a smart undergraduate student who was interested in research. I think his situation might be a common case so here I added my reply in the hope that this can be helpful to other students. Below is the modified email message. 
+Recently, I got an email from a student from HDILab.  I think his situation might be a common case so here I added my reply in the hope that this can be helpful to other students. Below is the modified email message from the student. 
 
-> I have been talking with few graduate recruiters and found out that graduate schools don’t offer scholarship unless I am doing PhD or thesis (which I had no idea what that meant). All I wanted to do was to get a masters degree to gain enough knowledge on AI and deep learning and work for companies like DeepMind or Neuralink to bring AGI and ASI to real life. And now I am overwhelmed and lost with what I’m supposed to do. My options are to loan my way through graduate school (but I can’t do that since I am already on a huge debt for my undergraduate school), or get a PhD (this will take me forever and I will never be able to pay my loans back with the stipend), or find a job (until I am able to pay by loans and fund my graduate school but I really want to be on AI). I recently figured out that my major (computer engineering) wasn’t right for me. I decided to switch to computer science but I needed to take more classes so I am switching to software engineering to graduate on time with right the classes.  My mind’s all over the place and I have no idea where to seek help from.  I’m only halfway through the book even though I love it. I have been dying to learn Reinforcement Learning but I haven’t got time even to start searching about the resources. 
+> Hello Dr.Park,
+>
+> I am trying to implement carracing. I am using a virtualenv python3.5.4. I am trying to run extract.bash using $sudo bash extract.bash. However, it returns 
+>
+>
+> ” File “extract.py”, line 8, in <module>
+>    import gym
+> ImportError: No module named gym” when extract.bash is trying to run extract.py. 
+>
+> The problem is I installed gym and box2d-py too, and yet it shows the import error. 
+>
+>
+> $ which pip 
+> /home/aishwarya/WorldModelsExperiments/carracing/venv/bin/pip
 > 
-> Thank you so much, Dr. Park! I hope you have a wonderful rest of the day.
- 
+> $ which python         
+> /home/aishwarya/WorldModelsExperiments/carracing/venv/bin/python
+>
+> I’ve also tried the solutions given in here and in here
+>
+> Can you please help me out with this issue.
 
- Below you can find my advice. TLDR, it is okay to get a job if you are on a debt. If you think you are interested in the research, try to study on your own for a year or two. If you are still interested, you can consider a PhD. 
+
+ Below you can find my advice. TLDR, if you have a technical problem. Solve it on your own while producing shareable outcome. If you have a research idea, your advisor can help you evaluate whether it is intractable, already done, or trivial.
 
 ### My answer to the student
 
