@@ -56,6 +56,8 @@ Updated: #sanjay 01/09/2019
 - Personal homepage blog article 
 - Github readme.md 
 
+One common mistake for the new member is writing a technical note about a topic that is already covered in previous technical note from other members. This is problematic in the two sense. First, it means that you did not search or read other's technical note. A value of the technical note is how many times it is read by others. If no one reads others' technical note, the value of our journal will be nothing. Second, you are creating an additional burden for the future readers looking for a solution for the topic. In that sense, you are creating a noise if you are creating a redundant article. So what we should do when we found that the topic that we would like to wrtie is available.  Check the original post and if you have an additional content, just update the original post.  If you are sure that you can write a better one by rewriting, replace the original post. The original post should be archived to the old technical note and referenced by the new article. 
+
 
 We share the open source code and how-to manual as a final output.
 We use GitHub as the main archive

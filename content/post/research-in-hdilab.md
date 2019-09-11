@@ -104,11 +104,18 @@ In our lab, we would like to develop an environment for Park's test. The key ide
 
 ### Hierarchical Prediction Memory (HPM)
 
-HDILab also studies the model that can learn the language in the environment described above. We conjecture that the essence of the intelligence is a hierarchical prediction. 
+HDILab also studies the model that can learn the language in the environment described above.  Let's start our discussion from the function and the mechanism. 
+
+
+#### Function and Mechanism
+
+The most difficult way to fly is to imitate the biological **mechanism** of flying such as in birds or flies. The biological mechanism is highly evolved due to the long history of adaptation. And many of the complex mechanism is due to the biological limitation which does not apply to us. What we need to figure out is what those mechanism are actually doing or **function**. The way human or horses run is *pushing the ground backward*. The way birds fly is *pushing the air downward*. This applies to the intelligence. The biological mechanism is very complex. It has been very optimized. It has to use biological lossy devices. So the mechanism is very complex. But we need to learn what is the function of the mechanism. It is in my opinion *prediction of vector sequence*. Hierarchy helps to overcome the temporal limit by chunking. The essence of intelligence is *hierarchical prediction of vector sequence*. 
+
+
+ We conjecture that the essence of the intelligence is a hierarchical prediction. 
 
 Where the original connectivist has missed? The original connectivist thought the decision or pattern recognition as the core activity. However, this lead to the wrong formalization of the problem? In my opinion, prediction should be the core activity. Prediction includes the decision or pattern recognition, but the main difference is that it has the streaming input and streaming output.
 
-The most difficult way to fly is to imitate the biological mechanism of flying such as in birds or flies. What we needs to learn is what those mechanism are actually doing or *function*. The way human or horses run is *pushing the ground backward*. The way birds fly is *pushing the air downward*. This applies to the intelligence. The biological mechanism is very complex. It has been very optimized. It has to use biological lossy devices. So the mechanism is very complex. But we need to learn what is the function of the mechanism. It is in my opinion *prediction of vector sequence*. Hierarchy helps to overcome the temporal limit by chunking. The essence of intelligence is *hierarchical prediction of vector sequence*. 
 
 
 
