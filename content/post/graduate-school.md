@@ -8,7 +8,7 @@ draft = false
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Deokgun Park"]
 
-tags = ["student advice"]
+tags = ["student advice","career"]
 summary = "If you are not sure, getting a SW job is okay. If you study AI by yourself for one or two years, you might consider applying for PhD program."
 
 [header]
