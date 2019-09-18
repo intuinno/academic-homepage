@@ -34,7 +34,7 @@ like once he was
 
 in the hope that allowed more time
 
-he could see how minds work
+he could finally see how minds work
 
 knowing that his time is over. 
 
