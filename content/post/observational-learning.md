@@ -30,10 +30,14 @@ For the proper environment, we need other humans to teach language. There are ma
 
 Using this environment, we will develop a model that can learn by observing and interacting with other human-like pre-programmed agent. There are two parts for the model. 
 
-First, we need a common cortical algorithm that is a universal machine given a vector as an input that can predict next state vector. Hierarchy plays an important role here to overcome the trade-off between long-term predicton and training data. Some candidates for the possible algorithms are below
- - Clonned HMM by Vicarious
- - HTM described in the “Why Neurons have Thousands of Synapses, A Theory of Sequence Memory in Neocortex” by Numenta 
- - Hierarchical Prediction Network (HPNet) in “A Neurally-Inspired Hierarchical Prediction Network for Spatiotemporal Sequence Learning and Prediction” by Qiu et al. 
+First, we need a common cortical algorithm that is a universal machine given a vector as an input that can predict next state vector. 
+Hierarchy plays an important role here to overcome the trade-off between long-term predicton and training data. 
+
+Some candidates for the possible algorithms are below
+
+- [Clonned HMM](https://arxiv.org/pdf/1905.00507.pdf) by Vicarious
+- [HTM](https://www.frontiersin.org/articles/10.3389/fncir.2016.00023/full) by Numenta 
+- [Hierarchical Prediction Network (HPNet)](https://arxiv.org/abs/1901.09002) by Qiu et al. 
 
 Note the vector representation changes from Sparse binary (HTM) to dense continuous (HPNet). Personally I prefer sparse binary but it can be functionally equivalent as in the electric motor and combustion engine in the vehicle. We also need to batch multiple modules in a heterarchical way as the society of minds. A good example is the contour-surface factorization in the RCN paper. We will need many more modules to handle sensory motor, auditory and so on. The executive functions on the prefrontal cortex can be built on the same principle while working on higher layer vectors that was generated as final output vectors in other modules. 
 
