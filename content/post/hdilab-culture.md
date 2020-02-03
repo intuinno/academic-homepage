@@ -39,6 +39,7 @@ Lab journal is for the general purpose work and project journal is for the proje
 - I set up the new server or hardware for the-> hdilab journal
 - I organized the inventory -> hdilab journal  
 - I replicated the world model -> daivid journal
+- I read a paper -> a blog article for paper summary (This is an [example](http://crystal.uta.edu/~park/post/mapping-the-landscape-of-human-level-agi.md/) ) 
 
 Every work should be recorded and reproducible.
 Basically journal is for yourself. But write it well when others have to find something you did. When you accumulate enough work and progress, make them shareable and transferable chunk into three places: 
