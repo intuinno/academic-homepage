@@ -51,7 +51,7 @@ Hi, Tomas (Name changed for privacy)
 
 I don't know about this. You should check Google or ask other person's in the lab. I think Jane and John might know. 
 
-Don't worry. Debugging this kind issue is common. I myself always deal with this issue. One of the reason, I cannot help is that the reason can be diverse. It is case by case. Therefore it is more important important to know how to deal with these kind of issues than the actual specific solution.  There will be hardly anyone who can solve your technical problem with a clear answer. If you have one you are lucky. But still if you ask to much questions to him, you are actually costing a precious resource to the group which is a bad news for you.  Below are some general advices. 
+Don't worry. Debugging this kind issue is common. I myself always deal with this issue. One of the reason, I cannot help is that the reason can be diverse. It is case by case. Therefore it is more important to know how to deal with these kind of issues than the actual specific solution.  There will be hardly anyone who can solve your technical problem with a clear answer. If you have one you are lucky. But still if you ask to much questions to him, you are actually costing a precious resource to the group which is a bad news for you.  Below are some general advices. 
 
 1. Use slack general channel. If you send email to one person, the chance is low that  your busy and ignorant professor can help you. If you use slack to post your issue to the entire group, some competent students might help you. 
 
