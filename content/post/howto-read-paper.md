@@ -27,12 +27,15 @@ By following standarized procedure for reading papers, I hope I can overcome thi
 - After you read the paper, move it to google drive. 
 - If you have annotation with pen and highlighting marker, replicate it on the file. 
 - Add the reference to [the reference mindmap](https://www.mindmeister.com/1405726945/references). I embedded the mindmap in the post. 
-- If there is an interesting pictures, save photos to the google drive Paper figures folders and attach it into the mindmap
+- If there is an interesting pictures, save photos to the google drive Paper figures folders and attach it into the mindmap. 
+  - You might change the filename of the captured image such that you can upload it to homepage. 
+  - Copy those figures to homepage/static/img folder.  
 - Start summarizing the paper in the mindmap. A few place holders will be following. 
   - **Summary** What is this paper about? 
   - **Good** What are good points?
   - **Bad** What are my criticism? 
   - **Implication** How I can use this work? What will be different from my approach? 
+  - **Future Readings** Include some more references
 - After summarizing them, add those summary in the homepage review post. Here is [an example post](http://crystal.uta.edu/~park/post/mapping-the-landscape-of-human-level-agi.md/). 
 - Finally, if the paper is worth sharing, add the paper to HDILab journal with the link to the summary post such that it can be shared. 
 
