@@ -69,15 +69,15 @@ Given an environment $\mu$ and agent $\pi$, the expected future value is the sum
 
 $$V^{\pi}\_{\mu}(\gamma):=\frac{1}{\Gamma}\mathbf E\left(\sum_{i=1}^{\infty}\gamma^ir_i\right) $$
 
-This is the expected future for one environment. How we can represent diverse environment? More challenging questions are how we can quantify an easy environment and a complex environment. Also how should we assign an weight to the performance (expected reward) for easy and difficult environment?  
+This is the expected total reward for one environment. How we can represent diverse environment? More challenging question is how we can quantify an easy environment and a complex environment. Also how should we assign an weight to the performance (expected reward) for easy and difficult environment?  
 
 The main idea authors suggest is that the complexity of environments can be expressed with Kolmogorov complexity of the binary string that describes the environment. 
 
 $$ K(x) := {min}_p \\{ l(p): U(p) = x \\} $$
 
-You can think of the binary string p as the program to simulate the environment for reference universal Turing machine U. Kolmogorov complexity is then the minimum length of that program that runs in Turing machine U.  Simply speaking if the length of program is short, we can say the program is simple. And in this case, the fact that we have to find the minimum length makes the computation intractable for non-trivial case.  You can think Kolomgorov complexity as similar concept as minimum description length (MDL) for program. 
+You can think of the binary string p as the program to simulate the environment for the reference universal Turing machine U. Kolmogorov complexity is then the minimum length of the program that runs in Turing machine U.  Generally if the length of program is short, the program is simple. And in this case, the fact that we have to find the minimum length makes the computation intractable for non-trivial case.  You can think Kolomgorov complexity is similar with minimum description length (MDL) for program. 
 
-When there are many environments, what is the probability distribution for the environment? One idea is that the probability of the existence of environment might be inversely proportional to the exponential of the length or $p\_{\mu} \propto 2^{-K(\mu)}$. You might imagine randomly appending 0 or 1 to binary string to build a program. Therefore we can express intelligence as the expected performance of agent $\pi$ with respect to the universal distribution $ 2^{-K(\mu)}$ over the space of all environments E. 
+When there are many environments, what is the probability distribution for the environment? One idea is that the probability of the existence of environment $p\_{\mu}$ might be inversely proportional to the exponential of the length or $p\_{\mu} \propto 2^{-K(\mu)}$. You might imagine randomly appending 0 or 1 to binary string to build a program. Therefore we can express intelligence as the expected performance of agent $\pi$ with respect to the probability of environment $ 2^{-K(\mu)}$ over the space of all environments E. 
 
 $$ \Gamma(\pi) := \sum\_{\mu \in E}2^{-K(\mu)}V^{\pi}\_{\mu}$$
 
@@ -95,7 +95,7 @@ Authors then compare the intelligence of following agents.
 
 It is quite nice to see that a very specialized agent gets lower intelligence score than a general but simple agent. Later the authors surveys the tests for the intelligence because the definition and the test are closely related in many cases. The list of tests are also useful for my research.  
 
-- Turing test and derivatives: Common criticism is that Turing test is not *necessary* to establish intelligence. Because the required knowledge level is too high, it cannot offer much guidance to the AI research. Also it depends on the human judges who are reliable and reproducible for repeated tests. 
+- Turing test and derivatives: Common criticism is that Turing test is not *necessary* to establish intelligence. Because the required knowledge level is too high, it cannot offer much guidance to the AI research. Also it depends on the human judges who are not reliable and reproducible for repeated tests. 
 - Compression tests: Compression can also represent the intelligence. An example would be summarizing papers, describing movies and so on. 
 - Linguistic Complexity: HAL project propose to "measure a system's level of conversational ability by using techniques developed to measure the linguistic ability of children such as vocabulary size, length of utterances, response types, syntactic complexity and so on. 
 - Multiple Cognitive Abilities: Toddler turing test tries to build a young child in a similar set up to Turing test. A2I2 project tries to test performance of a small mammal. I would need to check this tests. 
@@ -110,7 +110,7 @@ And authors suggest useful properties for tests of machine intelligence and scor
 {{< figure src="/img/tests-for-ai.png" title="Comparison of various tests for machine intelligence." numbered="true" lightbox="true" width="100%">}}
 
 
-Please note that Kolomogorov complexity is intractable for non-trivial case, universal intelligence cannot lead to the test.  
+Please note that Kolomogorov complexity is intractable for non-trivial case, therefore universal intelligence is a definition not test.  
 
 If we apply this metric to the Language acquisition test, I think the following can be claimed. 
 
@@ -130,7 +130,7 @@ If we apply this metric to the Language acquisition test, I think the following 
 
 Finally in the paper, the authors response to common criticisms. Among those, I liked how they respond to "Blockhead" argument and "Chinese room" argument. To introduce those arguments to the readers, "Blockhead" argument is that a machine seems to be intelligent to pass the Turing test, but it it is in fact no more than just a big look-up table of questions and answers. This machine with simple look-up table does not seems to be intelligent, isn't it? The "Chinese room" argument is similar. The agent in the room responds to the questions in chinese. But the agent cannot understand chinese character. But it has a big book of Chinese phrasebooks with questions and matching answers. Therefore when the agent is given the question in the chinese letter, the agent will simply search the book for the same phrase and write answer and send it back. Even though the agent pass the Turing test, does the agent *understand* chinese? 
 
-The authors position is that as long as the agent shows high $\Gamma$ value, the internal working does not matter. 
+The authors claim that as long as the agent shows high $\Gamma$ value, the internal working does not matter. 
 
 > ... it is not even clear to us how to define *understandings* if its presence has no measurable effects. ... if *understanding* does have a measurable impact on an agent's performance in some well defined situations, then it is of interest to us. In which case, because $\Gamma$ measures performance in all well defined situations, it follows that $\Gamma$ is in part a measure of how much understanding an agent has. 
 
@@ -141,11 +141,11 @@ Personally I think these arguments are harmful influence of philosophers to engi
 While I agree with their informal definition, my main criticism lies in their formal definition. I think it has a faulty assumption that rewards are equivalent to the goals. Reward system is just one of a trick to achieve goals. 
 
 
-Intelligence is the concept that originated from biological agent. Therefore goals are natural to explain in perspective of biological agent. Generally we can say that the goal is to spread gene. Intelligence is one of strategy to achieve this goal. What are other mechanisms? Virus or bacteria have the strategy for lowering the cost of replication by hijacking to other system. Plant or phytoplankton choose the strategy of being self sufficient in addition to the lowering the cost of replication. Intelligence is more advanced strategy than this. Intelligence, especially based on neural circuitry, is selecting the behavior that will increase the chance of spreading gene according to the sensory input.  This requires sensory system and central nerve system (CNS) or brain to process sensory information and control the actuators accordingly. 
+Intelligence is the concept that originated from biological agent. Therefore goals are natural to explain in perspective of biological agent. Generally we can say that the goal is to spread gene. Intelligence is one of strategy to achieve this goal. What are other strategies? Virus or bacteria have the strategy for lowering the cost of replication by hijacking to other system. Plant or phytoplankton choose the strategy of being self sufficient in addition to the lowering the cost of replication. Intelligence is more expensive strategy than these. Intelligence is selecting the behavior that will increase the chance of spreading gene according to the sensory input.  This requires sensory system and central nerve system (CNS) or brain to process sensory information and control the actuators accordingly. 
 
 {{< figure src="/img/intelligence-sense-act-think.png" title="Non-Intelligent vs Intelligent biological agents. Please note intelligence requires the sensory system and neural information processing system" numbered="true" lightbox="true" width="100%">}}
 
-However, at first the central nerve system was more simple. It has hardcoded the mapping from sensory system to the corresponding actions using simple look-up table. This lookup table is updated with evolution. Therefore while there was no learning in individual agent, the species as a whole improved this hardcoded function. A good example will be an earthworm. Charles Darwin studied earthworms for over 30 years in his house and his book *The formation of vegetable mould, throuth the action of worms* sold more copies than *the origin of species*[^4]. Earthworms have light receptors and vibration sensors. They move according to the light condition or the vibration caused by the moles.  While this is drastic improvement over the random spreading of the bacteria, the problem with this approach is that it is very slow because the update to the neural circuit happens through evolution. 
+However, at first there are different levels in intelligence strategy. Agents such as earthworms have simple brains. It has hardcoded the mapping from sensory system to the corresponding actions using simple look-up table. This lookup table is updated with evolution. Therefore while there was no learning in individual agent, the species as a whole improved this hardcoded function. A good example will be an earthworm. Charles Darwin studied earthworms for over 30 years in his house and his book *The formation of vegetable mould, throuth the action of worms* sold more copies than *the origin of species*[^4]. Earthworms have light receptors and vibration sensors. They move according to the light condition or the vibration caused by the moles.  While this is drastic improvement over the random spreading of the phytoplankton, the problem with this approach is that adaptation is very slow because the update to the neural circuit happens through evolution. 
 
 [^4]: Making sense of earthworm senses from Earthwormwatch.org. [link](https://www.earthwormwatch.org/blogs/making-sense-earthworm-senses)
 
