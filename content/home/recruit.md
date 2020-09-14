@@ -24,5 +24,5 @@ weight = 7
   label = '<i class="fa fa-graduation-cap"></i> About research in HDILab'
 +++
 
-I am looking for students interested in artificial general intelligence (AGI) research. Please read the following article before contacting me.
+You can read the following article for the research in HDILab. 
 <br>
