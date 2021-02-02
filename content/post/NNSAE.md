@@ -82,7 +82,7 @@ While the performance of the pooler or NNSAE is satisfactory, the predictor perf
 - Sparse deep belief net model for visual area V2 by Honglak Lee, Chaitanya, Ekanadham,  Andrew Ng
 - Synergies between Intrinsic and Synaptic Plasticity in Individual Model Neurons by Jochen Triesch 
 - Echo State Networks
-- L1 Loss 
+- L1 Loss
 
 
 Below is my mindmap for the related papers to artificial general intelligence. 
